@@ -1,0 +1,16 @@
+name: Hello World Workflow
+on:
+    push:
+        branches:
+            - main
+jobs:
+    hello:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Say Hello
+              run: echo "Hello, World!"
+    firstPrint:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Got you
+              run: echo "First name is asumah"
