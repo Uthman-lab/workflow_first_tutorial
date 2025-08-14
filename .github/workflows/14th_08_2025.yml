@@ -2,7 +2,7 @@ name: hello again
 on:
   push:
     branches:
-      - main, develop
+      - main
 jobs:
   helloWorld:
     runs-on: ubuntu-latest
